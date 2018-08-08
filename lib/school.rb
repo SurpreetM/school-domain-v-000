@@ -20,4 +20,8 @@ attr_accessor :name, :roster
     end
   end
 
+  def grade(num)
+    @ROSTER[num]
+  end
+
 end
