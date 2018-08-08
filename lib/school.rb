@@ -2,9 +2,10 @@ class School
 
   def initialize(name)
     @name = name
+    ROSTER = {}
   end
 
-  ROSTER = {}
+  
 
   def add_student (name, grade)
     if ROSTER.has_key("grade") == false
