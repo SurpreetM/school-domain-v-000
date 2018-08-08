@@ -12,7 +12,7 @@ attr_accessor :name, :roster
 
   def add_student (name, grade)
 
-    if @ROSTER.has_key?("grade") == false
+    if @ROSTER.has_key?(grade) == false
     @ROSTER[grade] = []
     @ROSTER [grade] << name
     else @ROSTER [grade] << name
