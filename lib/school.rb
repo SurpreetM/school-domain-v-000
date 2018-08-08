@@ -24,4 +24,12 @@ attr_accessor :name, :roster
     @ROSTER[num]
   end
 
+  def sort
+    sorted = {}
+    @ROSTER.each do |grade, students|
+      sorted[grade] = students.sort
+    end
+    sorted        
+  end
+
 end
