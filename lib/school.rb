@@ -10,7 +10,8 @@ class School
     if ROSTER.has_key("grade") == false
     ROSTER[grade] = []
     ROSTER [grade] << name
-  else ROSTER [grade] << name
+    else ROSTER [grade] << name
+    end
   end
 
 end
