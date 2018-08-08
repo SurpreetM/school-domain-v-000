@@ -5,8 +5,6 @@ class School
     ROSTER = {}
   end
 
-  
-
   def add_student (name, grade)
     if ROSTER.has_key("grade") == false
     ROSTER[grade] = []
