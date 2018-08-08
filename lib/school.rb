@@ -5,6 +5,10 @@ class School
     @ROSTER = {}
   end
 
+  def roster
+    @ROSTER
+  end 
+
   def add_student (name, grade)
     if ROSTER.has_key("grade") == false
     ROSTER[grade] = []
